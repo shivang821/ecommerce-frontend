@@ -1,0 +1,163 @@
+.container {
+    height: 91vh;
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.productConatiner {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: .2fr 3.8fr;
+    overflow-y: auto;
+}
+
+.items {
+    height: auto;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.items::-webkit-scrollbar {
+    display: none;
+}
+
+.productHeader {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 3fr .5fr .5fr;
+    grid-auto-flow: column;
+    place-items: center;
+    gap: 2px;
+    margin-bottom: 2rem;
+}
+
+.productHeader>* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7a08fa;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: "roboto";
+    width: 100%;
+    place-self: center;
+    height: 100%;
+}
+
+.subTotalConatiner {
+    height: 100%;
+    width: 100%;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.subTotal {
+    margin-top: 5rem;
+    height: 40%;
+    background-color: #2c2c2c;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    font-family: "roboto";
+    position: relative;
+}
+
+.subTotal>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 15%;
+    align-items: center;
+    margin: .7rem 0;
+}
+
+.totalPrice {
+    width: 100%;
+}
+
+.totalNumerOfItems {
+    width: 100%;
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: auto;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.payButton {
+    height: 3rem;
+    background-color: #7a08fa;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font: bold 1.2rem "roboto";
+    width: 100%;
+    transition: all .5s;
+}
+
+.payButton:hover {
+    background-color: #7908fab9;
+    border-radius: 50px;
+    color: rgba(245, 245, 245, 0.795);
+}
+
+.emptyCart {
+    font-family: "roboto";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(245, 245, 245, 0.801);
+}
+
+.emptyCart>svg {
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+    color: rgba(245, 245, 245, 0.801);
+}
+
+.emptyCart>button {
+    border: none;
+    margin: 1rem;
+    height: 3rem;
+    color: whitesmoke;
+    background-color: rgb(121, 8, 250);
+    font: bold 1.2rem "roboto";
+    width: 10rem;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.emptyCart>button:hover {
+    border-radius: 50px;
+    background-color: #7908fab4;
+    color: rgba(245, 245, 245, 0.815);
+}

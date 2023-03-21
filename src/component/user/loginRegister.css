@@ -1,0 +1,234 @@
+.LoginSignUpContainer {
+    height: 91vh;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+}
+
+.LoginSignUpBox {
+    height: 70%;
+    width: 25%;
+    border-radius: 20px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* overflow: hidden; */
+    padding: 1rem 0;
+    /* border: 1px solid #7a08fa; */
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.4);
+    /* padding: 1rem; */
+}
+
+.LoginSignUpBox>div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-signup-toggler {
+    height: 3vmax;
+    width: 100%;
+    display: flex;
+}
+
+.login-signup-toggler>p:hover {
+    color: #7a08fa;
+}
+
+.login-signup-toggler>p {
+    color: whitesmoke;
+    height: 100%;
+    width: 50%;
+    font: 600 2rem "Roboto ";
+    transition: all .5s;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+
+.toggleBtn {
+    background-color: #7a08fa;
+    border: none;
+    height: 3px;
+    width: 50%;
+}
+
+.loginForm,
+.signUpForm {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    transition: all .5s;
+    width: 100%;
+    padding: 1rem;
+    /* background-color: #7a08fa; */
+}
+
+.loginForm>div,
+.signUpForm>div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    /* border: 1px solid red; */
+    /* justify-content: center; */
+}
+
+.loginForm>div>input,
+.signUpForm>div>input {
+    padding: 1vmax 3vmax;
+    padding-right: 1vmax;
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid rgba(230, 230, 230, .293);
+    border-radius: 4px;
+    font: 300 .9vmax "roboto";
+    outline: none;
+    background-color: transparent;
+    color: whitesmoke;
+    transition: all .5s;
+}
+
+.loginForm>div>input:active,
+.signUpForm>div>input:active {
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.loginForm>div>input:focus,
+.loginForm>div>input:hover,
+.signUpForm>div>input:focus,
+.signUpForm>div>input:hover {
+    border: 1px solid whitesmoke;
+    color: white;
+}
+
+.loginForm>div>svg,
+.signUpForm>div>svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    color: whitesmoke;
+}
+
+.loginForm>a {
+    text-decoration: none;
+    font: 500 .8vmax "Gill Sans";
+    align-self: flex-end;
+    margin: 0 2rem;
+    transition: all .5s;
+}
+
+.loginBtn,
+.signUpBtn {
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7a08fa;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font: bold 1.5rem "gill sans";
+    letter-spacing: 2px;
+    line-height: 2rem;
+    transition: all .5s;
+}
+
+.loginBtn:hover,
+.signUpBtn:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.575);
+    background-color: #7908fa93;
+    color: rgba(245, 245, 245, 0.829);
+}
+
+.shiftToNeutral {
+    transform: translateX(0%);
+}
+
+.shiftToRight {
+    transform: translateX(100%);
+}
+
+.shiftToLeft {
+    display: none;
+}
+
+.shiftToNeutralForm {
+    display: flex;
+}
+
+#registerImage>img {
+    width: 3vmax;
+    border-radius: 100%;
+    /* border-radius: 100px; */
+}
+
+#registerImage>input {
+    padding: 0;
+    width: 85%;
+    margin-left: 1rem;
+    display: flex;
+}
+
+#registerImage {
+    width: 80%;
+    margin: 0 4vmax;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 3vh;
+    height: 6vh;
+}
+
+#registerImage>input::file-selector-button {
+    cursor: pointer;
+    width: 100%;
+    height: 6vh;
+    border: none;
+    font: bold 1.5rem "Gill Sans";
+    color: #7a08fa;
+    border-radius: 5px;
+}
+
+.userRoleDiv .MuiSelect-outlined>svg {
+    align-self: center;
+    margin-right: 1rem !important;
+}
+
+.userRoleDiv .MuiSelect-select {
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    gap: 0 !important;
+}
+
+.userRoleDiv .MuiSelect-select>svg {
+    margin-right: .5rem !important;
+}
+
+.userRoleDiv .MuiPaper-root {
+    opacity: .2 !important;
+    border: 1px solid red;
+}
+
+.MuiPaper-root>ul {
+    height: 100% !important;
+    width: 100% !important;
+    background-color: #1c1c1c;
+}
+
+.menu-item {
+    background-color: #2c2c2c !important;
+}

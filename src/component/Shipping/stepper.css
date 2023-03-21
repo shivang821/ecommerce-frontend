@@ -1,0 +1,40 @@
+.stepContainer {
+    height: 20%;
+    display: grid;
+    align-items: center;
+}
+
+p {
+    color: whitesmoke;
+    font-weight: bold !important;
+    font-family: "gill" !important;
+    letter-spacing: 1px !important;
+}
+
+.MuiStepLabel-iconContainer {
+    /* background: linear-gradient(130deg, #7908fa, #483cf0); */
+    background-color: #7a08fa;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    transform: translateY(-10px);
+    color: whitesmoke;
+}
+
+.MuiStepConnector-line {
+    height: 2px;
+    border: none !important;
+    background-color: whitesmoke;
+}
+
+.Mui-completed .MuiStepConnector-line {
+    background-color: #7a08fa;
+}
+
+.MuiStepLabel-label.Mui-active.MuiStepLabel-alternativeLabel>p {
+    color: #7a08fa;
+    font-size: 1.5rem;
+}

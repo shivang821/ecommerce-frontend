@@ -1,0 +1,110 @@
+.profile-container {
+    height: 91vh;
+    width: 100vw;
+    max-width: 100%;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.profile-img-container>img {
+    border: 1px solid red;
+    /* height: 15rem;
+    width: 15rem; */
+    /* border-radius: 100%; */
+}
+
+.imageDiv {
+    /* margin: 1.5rem 0; */
+    height: 15rem;
+    width: 15rem;
+    /* background-color: #3027ae; */
+    background: linear-gradient(170deg, #e608faee, #f7ca36);
+    border-radius: 100%;
+    padding: .5rem;
+}
+
+.imageDiv>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.profile-container>div {
+    /* gap: 2rem; */
+    margin: 0 1rem;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    /* border: 1px solid red; */
+}
+
+.profile-container>:first-child {
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img-container>button {
+    margin-top: 2rem;
+}
+
+.profile-container>:first-child {
+    background: linear-gradient(190deg, #7908faee, #2f26b6);
+    background-color: #7908faee;
+    border-radius: 20px;
+    border: 2px solid linear-gradient(170deg, #ea00ff, #0bbfec);
+}
+
+.profile-container>:first-child>button {
+    border: none;
+}
+
+.profile-container>:last-child>div {
+    height: 5rem;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.route-link {
+    height: 3rem;
+    margin: 1rem 0;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    transition: all .5s;
+    background-color: whitesmoke;
+}
+
+.route-link:hover {
+    background-color: rgba(245, 245, 245, 0.747);
+}
+
+.route-link>a {
+    text-align: center;
+    text-decoration: none;
+    /* width: 100%; */
+    font-weight: bold;
+    font-size: 1.5rem;
+    z-index: 6;
+    color: #7a08fa;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "roboto";
+    transition: all .5s;
+    letter-spacing: 1px;
+    /* background: linear-gradient(170deg, #7908faee, #3027ae);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}

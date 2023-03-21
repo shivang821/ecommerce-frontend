@@ -1,0 +1,145 @@
+.adminProductsDiv {
+    min-height: 91vh;
+    height: auto;
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    overflow: auto;
+}
+
+.adminProducts-1 {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.adminProducts-1::-webkit-scrollbar {
+    display: none;
+}
+
+.adminProductsDivHeading {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: whitesmoke;
+}
+
+.adminProductsDivHeading>h4 {
+    font: bold 1.5rem "roboto";
+    letter-spacing: 1px;
+}
+
+.dataGrid {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    /* overflow: auto; */
+}
+
+.MuiTablePagination-displayedRows {
+    /* color: black; */
+    color: "whitesmoke"
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell:focus {
+    outline: 'none';
+}
+
+.MuiDataGrid-footerContainer,
+.MuiDataGrid-root,
+.MuiDataGrid-row,
+.MuiDataGrid-column,
+.MuiDataGrid {
+    border: 0 !important;
+    -webkit-user-select: "none";
+    user-select: none;
+}
+
+.MuiDataGrid-footerContainer .MuiButtonBase-root>svg {
+    color: whitesmoke;
+}
+
+.MuiDataGrid-cell--withRenderer>a>svg {
+    /* color: #9139f5ce;
+    color: #5102ac; */
+    color: rgba(245, 245, 245, 0.842);
+    /* transition: all .8s ease-in; */
+}
+
+
+/* .MuiDataGrid-cell--withRenderer>a>svg:hover {
+    color: rgba(245, 245, 245, 0.842);
+} */
+
+.MuiDataGrid-cell--withRenderer>button>svg {
+    color: rgba(245, 245, 245, 0.842);
+    /* transition: all .8s ease-in; */
+}
+
+
+/* .MuiDataGrid-cell--withRenderer>button>svg:hover {
+    color: #9139f5ce;
+    color: #5102ac;
+} */
+
+.MuiDataGrid-cell--withRenderer .MuiButtonBase-root:hover {
+    background-color: transparent;
+}
+
+.MuiDataGrid-columnSeparator>svg {
+    color: #9139f5a1;
+    color: transparent !important;
+}
+
+.emptyProductWarning {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    font-family: roboto;
+}
+
+.emptyProductWarning>button {
+    height: 3rem;
+    width: 15rem;
+    margin-top: 2rem;
+    background-color: #7a08fa;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    transition: all .5s;
+}
+
+.emptyProductWarning>button:hover {
+    background-color: rgba(121, 8, 250, 0.801);
+    border-radius: 20px;
+    color: rgba(245, 245, 245, 0.801);
+}
+
+.emptyProductWarning>button>a {
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}

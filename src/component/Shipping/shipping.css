@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.shippingContainer {
+    height: 91vh;
+    width: 100vw;
+    max-width: 100%;
+    font-family: "roboto";
+}
+
+.shippingDetailsContainer {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.formContainer {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shippingHeading {
+    color: whitesmoke;
+    margin-top: 1rem;
+    height: 10%;
+    /* padding: .5rem; */
+    width: 20rem;
+    text-align: center;
+    border-bottom: 1px solid #7a08fa;
+}
+
+.formContainer>form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.form {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2rem;
+    /* flex-direction: column; */
+}
+
+.form>div {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.form>div>div {
+    height: 20%;
+    width: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.form>div>div>input,
+.form>div>div>select {
+    height: 60%;
+    border: none;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    width: 100%;
+    background-color: #2c2c2c;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.form>div>div>svg {
+    color: whitesmoke;
+    transform: translateX(2.5rem);
+}
+
+.form>div>div>input:focus,
+.form>div>div>select:focus {
+    outline: none;
+}
+
+.submitBtn {
+    height: 3rem;
+    width: 15rem;
+    border: none;
+    background-color: #7a08fa;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 4rem;
+    font-weight: bold;
+    font-family: "roboto";
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.submitBtn:hover {
+    background-color: rgba(121, 8, 250, 0.801);
+    color: rgba(245, 245, 245, 0.795);
+    border-radius: 50px;
+}
+
+.submitBtn:disabled {
+    background-color: #7908fa8e;
+    color: rgba(245, 245, 245, 0.507);
+}
+
+.submitBtn>svg:last-child {
+    transform: translateX(-1rem);
+}

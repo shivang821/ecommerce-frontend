@@ -1,0 +1,382 @@
+.ProductDetails {
+    z-index: -4;
+    height: 91vh;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 6vmax;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductDetails>div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2vmax;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.carousel {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel:first-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0 !important;
+}
+
+.carousel:first-child>* {
+    height: 100% !important;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel:first-child>*:first-child {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.carousel:first-child>:first-child {
+    position: relative;
+}
+
+.carousel:first-child>:first-child img {
+    margin-left: 15%;
+    min-height: 100%;
+    min-width: 70%;
+    height: 100%;
+    width: 70%;
+    aspect-ratio: 1/1;
+}
+
+.carousel:first-child>*>:first-child>:last-child {
+    object-fit: cover !important;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel:first-child>*>*>* img {
+    height: 100%;
+    width: 70%;
+    min-height: 100%;
+    min-width: 70%;
+    place-items: center;
+}
+
+.css-1abc02a .MuiButtonBase-root,
+.css-hn784z .MuiButtonBase-root {
+    background-color: #1a1919 !important;
+}
+
+.carousel>* {
+    width: 100%;
+    height: 100%;
+}
+
+.detailsBlock-1 {
+    font-family: "Roboto";
+    display: flex;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+
+.detailsBlock-11>h2 {
+    font-weight: bold;
+    color: tomato;
+    font-size: 3rem;
+}
+
+.detailsBlock-11>p {
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.detailsBlock-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.detailsBlock-3>p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    width: 100%;
+    font-family: "Roboto";
+}
+
+.greenColor {
+    color: green;
+}
+
+.redColor {
+    color: red;
+}
+
+.detailsBlock-31 {
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+}
+
+.detailsBlock-311>span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.detailsBlock-311>button {
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    border: none;
+    background-color: rgba(12, 12, 12, 1);
+    color: whitesmoke;
+}
+
+.detailsBlock-311>button:hover {
+    background-color: rgb(29, 115, 185);
+}
+
+.detailsBlock-311>input {
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto";
+    border: none;
+}
+
+.detailsBlock-311>input:focus {
+    outline: none;
+}
+
+.detailsBlock-312 {
+    display: flex;
+}
+
+.detailsBlock-312>button {
+    height: 3rem;
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    margin: 1rem;
+    width: 50%;
+    text-align: center;
+}
+
+.detailsBlock-312>:first-child {
+    background-color: #FFB100;
+    color: whitesmoke;
+}
+
+.detailsBlock-312>:last-child {
+    background-color: gold;
+    color: whitesmoke;
+}
+
+.detailsBlock-312>button:hover {
+    background-color: #FF6E31;
+}
+
+.detailsBlock-4 {
+    margin-bottom: 0;
+    margin-top: 3rem;
+    color: rgba(12, 12, 12, .5);
+    font-weight: bold;
+    font-family: "Roboto";
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailsBlock-4>button {
+    border: none;
+    font-weight: bold;
+    color: #205295;
+    background-color: transparent;
+}
+
+.reviewContainer>h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+.reviewContainer {
+    height: 30rem;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.notReview {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.notReview>h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+.notReview>p {
+    font-size: 1.5rem;
+    font-family: "roboto";
+}
+
+.reviews {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    height: 80%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.reviewDiv {
+    height: 100%;
+    width: 30%;
+    flex-shrink: 0;
+    margin: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    transition: all .2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewDiv ::-webkit-scrollbar {
+    display: none;
+}
+
+.reviewDiv:hover {
+    box-shadow: 0 10px 20px 10px rgba(219, 216, 216, 0.575);
+    transform: translateY(-200);
+}
+
+.reviewUpper {
+    height: 40%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-weight: bolder;
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #1c1c1c;
+    align-items: center;
+    font-family: "Roboto";
+}
+
+.userAvt {
+    margin: 2rem;
+}
+
+.lowerReview {
+    text-align: justify;
+    height: 60%;
+    width: 100%;
+    padding: 2rem;
+    overflow-y: scroll;
+    font-size: 1.3rem;
+}
+
+.lowerReview>p {
+    font-family: "gill" !important;
+    font-weight: lighter !important;
+    color: #191919;
+}
+
+.MuiDialog-paperScrollPaper {
+    background-color: #1c1c1c !important;
+    color: whitesmoke !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ratingDiv>span {
+    height: 2rem;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.ratingDiv>span>h5 {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.textArea {
+    outline: none;
+    padding: 1rem;
+    font-family: roboto;
+    resize: none;
+}
+
+.textArea::-webkit-scrollbar {
+    display: none;
+}
+
+.MuiDialogTitle-root {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #7a08fa;
+    width: 30%;
+    margin: 0 35% !important;
+    padding: .2rem 0 !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    font-family: Gill !important;
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+}
+
+.MuiDialogTitle-root>* {
+    padding: 1rem 2rem !important;
+}

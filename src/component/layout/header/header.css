@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    background-color: #171717 !important;
+    height: 9vh;
+    width: 100% !important;
+}
+
+.row {
+    width: 100%;
+}
+
+.nav-links a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #7a08fa;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center !important;
+}
+
+.navaccount>* {
+    margin: 0 20px;
+}
+
+.nav-links>* {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0 20px;
+    color: whitesmoke;
+}
+
+.MuiPaper-root {
+    background-color: #121212 !important;
+    color: whitesmoke;
+    margin-right: 5rem !important;
+}
+
+.MuiList-root {
+    margin-top: 10px !important;
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.profileIcons>svg {
+    color: whitesmoke;
+}
+
+.searchInp>* {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    width: 20rem !important;
+}
+
+.cartIcon {
+    position: relative;
+}
+
+.cartIcon>a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.cartIcon>a>div {
+    position: absolute;
+    top: -.8rem;
+    right: -1.3rem;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "roboto";
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7a08fa;
+    padding: .2rem;
+}
+
+.cartIcon>a>svg {
+    /* position: relative; */
+    height: 2rem;
+    width: 2rem;
+}

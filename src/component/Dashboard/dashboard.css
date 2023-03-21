@@ -1,0 +1,152 @@
+.dashboard {
+    min-height: 91vh;
+    height: auto;
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.dashboardDiv {
+    height: 91vh;
+    width: 100%;
+    overflow-y: scroll;
+    top: 0;
+    right: 0;
+}
+
+.dashboardDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.dashboardDivHeading {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: whitesmoke;
+}
+
+.dashboardDivHeading>h4 {
+    font: bold 1.5rem "roboto";
+    letter-spacing: 1px;
+}
+
+.dashboardAmountDiv {
+    height: 4rem;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboardAmountDiv-1 {
+    width: 95%;
+    height: 4rem;
+    background-color: #7a08fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.dashboardAmountDiv-1>p {
+    margin: auto 0;
+    font-size: 1.5rem;
+    font-family: roboto !important;
+    font-weight: bold !important;
+}
+
+.dashboardCircles {
+    margin-top: 2rem;
+    height: 10rem;
+    width: 100%;
+    /* background-c olor: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboardCircles>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    font: 300 2rem "Roboto";
+    text-align: center;
+    background-color: #7a08fa;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 100%;
+    height: 10vmax;
+    width: 10vmax;
+    margin: 2rem;
+    transition: all .5s;
+}
+
+.dashboardCircles>a:hover {
+    background-color: #6a08dac2;
+}
+
+.dashboardCircles>a>h3 {
+    margin: 0;
+}
+
+.dashboardCircles>a:first-child {
+    background-color: #F55050;
+}
+
+.dashboardCircles>a:first-child:hover {
+    background-color: #f72d2dc2;
+}
+
+.dashboardCircles>a:last-child {
+    background-color: #00337C;
+}
+
+.dashboardCircles>a:last-child:hover {
+    background-color: rgba(3, 54, 126, 0.761);
+}
+
+.lineChartDiv {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.lineChart {
+    /* height: 100%; */
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lineChart>canvas {
+    color: whitesmoke;
+}
+
+.doughnutDiv {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.doughnutChart {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6804db;
+}

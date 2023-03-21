@@ -1,0 +1,20 @@
+.myOrderContainer {
+    height: auto;
+    min-height: 91vh;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.myOrdersHeading {
+    margin-bottom: 4rem;
+    color: whitesmoke;
+    padding: 1rem;
+    border-bottom: 1px solid #7a08fa;
+    width: 15rem;
+    text-align: center;
+}

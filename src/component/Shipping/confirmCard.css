@@ -1,0 +1,72 @@
+.confirmCard {
+    height: 10rem;
+    width: 40rem;
+    /* background-color: #1c1c1c; */
+    background-color: #2c2c2c;
+    margin: 2rem;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: cente; */
+}
+
+.confirmOrderImg {
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmOrderImg>img {
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+}
+
+.confirmProductDetails {
+    width: auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.name {
+    height: 70%;
+    width: 100%;
+    padding: 1rem;
+    /* background-color: antiquewhite; */
+    /* word-break: break-all; */
+    text-align: justify;
+}
+
+.name>p {
+    font-size: 1.3rem;
+    font-weight: lighter !important;
+    font-family: "gill" !important;
+}
+
+.name>p>a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.name>p>a:hover {
+    cursor: pointer;
+    color: #7a08fa;
+}
+
+.price {
+    height: 30%;
+    padding-left: 1rem;
+}
+
+.price>p {
+    font-size: 1.2rem;
+    font-weight: lighter !important;
+}
+
+.price>p>svg {
+    font-size: 1rem;
+}

@@ -1,0 +1,12 @@
+.progress {
+    height: 91vh;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    width: 100%;
+    /* background-color: rgba(239, 239, 239, .2); */
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

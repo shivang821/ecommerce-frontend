@@ -1,0 +1,56 @@
+.successContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+    width: 100vw;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.successContainer>p {
+    font-size: 2rem;
+    color: whitesmoke;
+    font-family: roboto !important;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+}
+
+.successBtn>a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5rem !important;
+    font-family: "gill";
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.successBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7a08fa;
+    height: 3rem;
+    width: 15rem;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.successBtn:hover {
+    background-color: rgba(121, 8, 250, 0.801);
+    border-radius: 50px;
+    color: rgba(245, 245, 245, 0.801);
+}
+
+.successContainer>svg {
+    height: 10rem;
+    width: 10rem;
+    color: #7a08fa;
+}

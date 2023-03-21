@@ -1,0 +1,157 @@
+.orderDetail-admin {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    /* height: 100%; */
+    min-height: 91vh;
+    height: auto;
+    width: 100%;
+    overflow-y: auto;
+    position: relative;
+}
+
+.orderDetail-admin::-webkit-scrollbar {
+    display: none;
+}
+
+.mainOrderDetails-admin {
+    height: 91vh;
+    width: 100%;
+}
+
+.userShippingDetails {
+    /* height: 15rem; */
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    flex-direction: column;
+    background-color: #1c1c1c;
+    margin: 1rem;
+    padding: 2rem 0;
+    padding-left: 1rem;
+    border-radius: 5px;
+}
+
+.userShippingDiv {
+    height: 80%;
+    width: 100%;
+    padding-left: 1rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Roboto;
+}
+
+.userShippingDiv>h2 {
+    height: 20%;
+    width: 100%;
+    color: whitesmoke;
+    margin-bottom: 1.5rem;
+}
+
+.userShippingContent {
+    height: 80%;
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.userShippingContent>div {
+    width: 100%;
+    min-height: 1rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: .2rem 0;
+}
+
+.leftShippingDetails {
+    width: 12%;
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.rightShippingDetails {
+    width: 88%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.paymentStatus {
+    height: 50rem;
+    overflow-y: auto;
+}
+
+.adminOrderItems {
+    height: auto;
+    padding: 2rem 0;
+}
+
+.itemHeading {
+    color: whitesmoke;
+    font-family: Roboto;
+    margin-left: 3rem;
+}
+
+.processIngOrder {
+    position: sticky;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.processOrderDiv {
+    margin-top: 10rem;
+    width: 90%;
+    height: 20rem;
+    background-color: #1c1c1c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.processOrderDiv>h2 {
+    color: whitesmoke;
+    font-family: Roboto;
+    margin: 2rem 0;
+}
+
+.processOrderDiv .MuiOutlinedInput-root {
+    width: 20rem;
+    padding: 0 1rem;
+}
+
+.processBtn {
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    background-color: #7a08fa;
+    margin: 2rem;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Roboto;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all .5s;
+}
+
+.processBtn:hover {
+    background-color: rgba(121, 8, 250, 0.801);
+    color: rgba(245, 245, 245, 0.801);
+}
+
+.processBtn:disabled {
+    background-color: #7908fa81;
+    color: rgba(245, 245, 245, 0.486);
+}
